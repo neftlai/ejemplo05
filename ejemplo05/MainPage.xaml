@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ejemplo05.MainPage">
+
+
+    <StackLayout Margin="20,35,20,20">
+        <Button Text="Presioname"
+                TextColor="Green"
+                BackgroundColor="Yellow"
+                BorderColor="Red"
+                BorderWidth="3"
+                CornerRadius="20"
+                WidthRequest="100"
+                HeightRequest="60"
+                Clicked="Button_Clicked_1"/>
+
+    </StackLayout>
+</ContentPage>
